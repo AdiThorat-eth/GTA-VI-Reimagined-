@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Lenis from "lenis";
+import Hero from "./Components/Hero";
+import Navbar from "./Components/Navbar";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -38,7 +40,12 @@ const App = () => {
     };
   }, []);
 
-  return <div className="text-9xl">App</div>;
+  return (
+    <main>
+      <Navbar />
+      <Hero />
+    </main>
+  );
 };
 
 export default App;
