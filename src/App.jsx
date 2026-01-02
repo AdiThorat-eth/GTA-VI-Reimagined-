@@ -2,9 +2,11 @@ import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Lenis from "lenis";
+
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import FVideo from "./Components/FVideo";
+import Jason from "./Components/Jason";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -46,6 +48,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <FVideo />
+      <Jason />
     </main>
   );
 };
