@@ -7,6 +7,7 @@ import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import FVideo from "./Components/FVideo";
 import Jason from "./Components/Jason";
+import SVideo from "./Components/SVideo";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,6 +50,7 @@ const App = () => {
       <Hero />
       <FVideo />
       <Jason />
+      <SVideo />
     </main>
   );
 };

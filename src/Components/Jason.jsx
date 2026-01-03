@@ -51,7 +51,7 @@ const Jason = () => {
           time to try something new.
         </p>
         <div className="jason-2">
-          <img src="/images/jason-2.webp" />
+          <img src="/images/jason-2.webp" alt="Jason Duval" />
         </div>
       </div>
 
