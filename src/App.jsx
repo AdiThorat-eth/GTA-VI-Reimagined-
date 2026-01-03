@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar";
 import FVideo from "./Components/FVideo";
 import Jason from "./Components/Jason";
 import SVideo from "./Components/SVideo";
+import Lucia from "./Components/Lucia";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -51,6 +52,7 @@ const App = () => {
       <FVideo />
       <Jason />
       <SVideo />
+      <Lucia />
     </main>
   );
 };
