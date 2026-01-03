@@ -2,6 +2,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import React, { useEffect } from "react";
 
+import Loading from "./Components/Loading";
 import NavBar from "./Components/NavBar";
 import Hero from "./Components/Hero";
 import FVideo from "./Components/FVideo";
@@ -47,6 +48,7 @@ const App = () => {
 
   return (
     <main>
+      <Loading />
       <NavBar />
       <Hero />
 
